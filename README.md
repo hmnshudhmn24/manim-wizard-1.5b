@@ -3,7 +3,7 @@
 
 A domain-specialized **Qwen-Coder fine-tune** focused on the **Manim animation library**, designed to generate clean, correct, and structured mathematical animations from natural language prompts.
 
----
+
 
 ## ✨ Overview
 
@@ -14,7 +14,7 @@ The model understands:
 - Mathematical visualization patterns
 - Clean, readable Python animation code
 
----
+
 
 ## 🚀 Features
 
@@ -26,13 +26,13 @@ The model understands:
 - Hugging Face compatible
 - Code-only, reproducible setup
 
----
+
 
 ## 🧠 Base Model
 
 - **Qwen-Coder 1.5B**
 
----
+
 
 ## 📁 Project Structure
 
@@ -54,7 +54,7 @@ manim-wizard-1.5b/
 └── README.md
 ```
 
----
+
 
 ## 🛠️ Requirements
 
@@ -67,7 +67,7 @@ manim-wizard-1.5b/
 pip install -r requirements.txt
 ```
 
----
+
 
 ## 📚 Dataset
 
@@ -85,7 +85,7 @@ Format:
 }
 ```
 
----
+
 
 ## 🏋️ Training (LoRA Fine-Tuning)
 
@@ -93,7 +93,7 @@ Format:
 python training/finetune_lora.py
 ```
 
----
+
 
 ## 🧪 Inference
 
@@ -101,39 +101,10 @@ python training/finetune_lora.py
 python inference/generate_manim.py
 ```
 
----
+
 
 ## 🧪 Evaluation
 
 ```bash
 python eval/eval_codegen.py
 ```
-
----
-
-## ⚠️ Important Notes
-
-- This repository contains **code only**
-- Model weights are **not included**
-- Upload trained weights to **Hugging Face**, not GitHub
-- Use **Git LFS** if storing large files locally
-
----
-
-## 🎯 Use Cases
-
-- Math education videos
-- Visual explanations
-- YouTube & course content
-- Rapid Manim prototyping
-- Code-generation research
-
----
-
-## 📜 License
-
-Apache License 2.0
-
----
-
-**Turn math ideas into animations — instantly.**
