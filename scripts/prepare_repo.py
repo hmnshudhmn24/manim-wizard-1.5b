@@ -1,0 +1,1 @@
+print('Repository structure initialized')
